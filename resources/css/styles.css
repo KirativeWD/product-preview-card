@@ -138,8 +138,15 @@ p.product-price {
     color: var(--clr-primary);
 }
 
-.og-price {
-    text-decoration: line-through;
+/* SCREEN READER ONLY TEXT */
+.sr-only {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
 }
 
 .btn {
