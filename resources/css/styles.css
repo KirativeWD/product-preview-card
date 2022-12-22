@@ -98,7 +98,7 @@ body {
     border-radius: 0.5rem;
     max-width: 575px;
     overflow: hidden;
-    box-shadow: 0 0 5px var(--clr-grayish-blue);
+    box-shadow: 0 1.5rem 2.15rem hsl(212, 21%, 14%, .5);
 }
 
 /* ====================[4]==================== */
@@ -179,10 +179,13 @@ p.product-price {
 .attribution {
     font-size: 11px;
     text-align: center;
-    align-self: baseline;
-    margin-top: 2rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 2rem;
+    width: 100%;
 }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: var(--clr-primary); }
 
 .attribution a:hover { text-decoration: none; }
 
